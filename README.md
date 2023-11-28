@@ -1,66 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1 align="center">
+    
+![image](https://github.com/WataNegreirosMonteiro/laravel-solid/assets/90472705/6352067f-d712-4beb-b927-dcb7eb76cd9e)
+
+<br>
+SOLID - Study repository
+</h1>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/WataNegreirosMonteiro/laravel-solid.svg">
+  <a href="https://github.com/WataNegreirosMonteiro">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WataNegreirosMonteiro/laravel-solid.svg">
+  </a>
+
+  <a href="https://github.com/lukemorales/bancointer/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/WataNegreirosMonteiro/laravel-solid.svg">
+  </a>
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/WataNegreirosMonteiro/laravel-solid.svg">
 </p>
 
-## About Laravel
+<h4>
+    After reading several articles about design patterns, I felt it was time to try some of them. I decided to start by applying SOLID principles to Laravel. Here is the repository of my study.
+    
+SOLID is an acronym that represents a set of five principles that are considered a cornerstone in object-oriented programming and design. These principles help in creating software that is easy to maintain, understand, and extend. Here's what each letter in SOLID stands for:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **S: Single Responsibility Principle (SRP)**: This principle states that a class should have only one reason to change. It means that a class should only have one job or responsibility.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- **O: Open/Closed Principle (OCP)**: According to this principle, software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification. This means that you should be able to add new features or functionality without changing the existing code.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **L: Liskov Substitution Principle (LSP)**: This principle states that in a computer program, if S is a subtype of T, then objects of type T may be replaced (or substituted) with objects of type S without altering any of the desirable properties of that program.
 
-## Learning Laravel
+- **I: Interface Segregation Principle (ISP)**: This principle states that no client should be forced to depend on methods it does not use. ISP splits interfaces that are very large into smaller and more specific ones so that clients will only have to know about the methods that are of interest to them.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **D: Dependency Inversion Principle (DIP)**: This principle states that high-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend upon abstractions.
+</h4>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<p align="center">
+  <a href="#memo-license">License</a>
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<div align="center">
+    
+![image](https://github.com/WataNegreirosMonteiro/laravel-solid/assets/90472705/b6e4b108-cde4-4905-9393-0b60f16aeb53)
 
-## Laravel Sponsors
+</div>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Furthermore, I am using as my main reference an [article by Lucas Cavalcante](https://dev.to/lucascavalcante/principios-solid-o-que-sao-e-como-aplica-los-no-php-laravel-parte-01-responsabilidade-unica-3mjj) that I discovered on [dev.to](https://dev.to/)
 
-### Premium Partners
+## :rocket: Technologies
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+This project was developed with the technologies:
 
-## Contributing
+- [Laravel](https://laravel.com/)
+- [PhpStorm](https://www.jetbrains.com/phpstorm/promo/?source=google&medium=cpc&campaign=AMER_en_BR_PhpStorm_Branded&term=phpstorm&content=540304889981&gad=1&gclid=CjwKCAiAjfyqBhAsEiwA-UdzJFM5CDwBPAuoc9godeizCFTQSUHczNQ9v7cUZVB9PWffZz4OUr5TZxoCySwQAvD_BwE)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## :memo: License
 
-## Code of Conduct
+This project is under the MIT license. See the [LICENSE](https://github.com/WataNegreirosMonteiro/laravel-solid/blob/main/LICENSE) for more information.
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Made with ♥ by Wata Negreiros Monteiro :wave: [Get in touch!](https://www.linkedin.com/in/wata-negreiros-monteiro-2a94ab1a7/)
+| [<img src="https://avatars.githubusercontent.com/u/90472705?v=4" width=115><br><sub>Wata Negreiros Monteiro</sub>](https://github.com/WataNegreirosMonteiro) |  
+| :---: | 
