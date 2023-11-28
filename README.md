@@ -57,7 +57,7 @@ This project was developed with the technologies:
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/WataNegreirosMonteiro/laravel-solid/blob/main/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/WataNegreirosMonteiro/laravel-solid/blob/dev/LICENSE) for more information.
 ---
 
 Made with ♥ by Wata Negreiros Monteiro :wave: [Get in touch!](https://www.linkedin.com/in/wata-negreiros-monteiro-2a94ab1a7/)
